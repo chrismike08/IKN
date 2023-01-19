@@ -246,7 +246,7 @@ section {
 /*BREADCRUMB*/
 #breadcrumb {
   height: auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/breadcrumb.png) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bread.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -257,6 +257,7 @@ section {
   line-height: 0;
   font-size: 11px;
 }
+
 #breadcrumb h4 {
   margin: 0;
 }
