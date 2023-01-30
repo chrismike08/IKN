@@ -13,6 +13,29 @@
     <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css" />
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <style>
+      .embed-container {
+        position: relative;
+        padding-bottom: 80%;
+        height: 0;
+        max-width: 100%;
+      }
+      .embed-container iframe,
+      .embed-container object,
+      .embed-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      small {
+        position: absolute;
+        z-index: 40;
+        bottom: 0;
+        margin-bottom: -15px;
+      }
+    </style>
   </head>
   <body class="">
     <!-- BEGIN TOP BAR -->
@@ -142,15 +165,19 @@
             </div>
           </div>
           <div class="col-sm-8">
-            <iframe
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
-              width="100%"
-              height="280"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.24305261092!2d116.70664991532087!3d-0.9729741356404744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df6c9a9138990fd%3A0x593aee2ae36416b6!2sTitik%20Nol%20IKN%20Nusantara!5e0!3m2!1sen!2sid!4v1674636096416!5m2!1sen!2sid"
-            ></iframe>
+            <div class="embed-container">
+              <iframe
+                width="500"
+                height="400"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                title="MAP ASET UID KALTIMRA 2023"
+                src="//maps.pln.co.id/arcgis/apps/Embed/index.html?webmap=be808e4c8cd040d38bf654a30c5e58de&extent=112.593,-1.9026,120.7065,2.7706&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"
+              >
+              </iframe>
+            </div>
           </div>
         </div>
       </div>
